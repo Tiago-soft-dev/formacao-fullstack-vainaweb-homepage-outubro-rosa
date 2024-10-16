@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #e4eef1;
+  background-color: #FF69B4;
+  height: 15vh;
+}
+header section {
+  display: flex;
+  align-items: center;
+}
+header nav {
+  width: 40%;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+header nav ul a {
+  color: #e4eef1;
+  font-size: 28px;
+}
+
+.sessaoAlerta {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50vh;
+  background-color: #FFD9EC;
+}
+.sessaoAlerta p {
+  width: 40%;
+  font-size: 25px;
+  text-align: justify;
+}
+.sessaoAlerta img {
+  border-radius: 8px;
+}
+
+.sessaoCorrida {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 35vh;
+  background-color: #FF69B4;
+  color: #e4eef1;
+}
+.sessaoCorrida p {
+  width: 55%;
+  font-size: 25px;
+  text-align: justify;
+}
+.sessaoCorrida img {
+  border-radius: 8px;
+}
+
+.sessaoCuidados {
+  display: flex;
+  justify-content: space-around;
+  height: 426px;
+  align-items: center;
+  background-color: #FFD9EC;
+}
+.sessaoCuidados img {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+  background-color: #FF69B4;
+  color: #e4eef1;
+  font-size: 20px;
+}
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer p {
+  text-align: center;
+}
+footer p span {
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 20vh;
+    flex-direction: column;
+  }
+  header nav {
+    width: 90%;
+  }
+  .sessaoAlerta {
+    height: 80vh;
+    flex-direction: column-reverse;
+  }
+  .sessaoAlerta p {
+    width: 90%;
+    font-size: 22px;
+    text-align: justify;
+  }
+  .sessaoCorrida {
+    height: 80vh;
+    flex-direction: column;
+  }
+  .sessaoCorrida p {
+    width: 90%;
+    font-size: 22px;
+    text-align: justify;
+  }
+  .sessaoCuidados {
+    height: 100%;
+    padding: 10px;
+    flex-direction: column;
+  }
+  footer {
+    height: 100%;
+    padding: 10px;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */
